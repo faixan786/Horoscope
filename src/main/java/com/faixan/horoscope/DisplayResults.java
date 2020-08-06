@@ -22,7 +22,14 @@ public class DisplayResults extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_results);
-        getSupportActionBar().hide();
+        try
+        {
+            getSupportActionBar().hide();
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
         String horoscope = getIntent().getStringExtra("horoscope");
         String sign = getIntent().getStringExtra("sign");
 

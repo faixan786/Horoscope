@@ -14,7 +14,6 @@
         android:fontFamily="@font/montserrat_regular"
         android:gravity="left"
         android:padding="16dp"
-        android:layout_marginLeft="32dp"
         android:text="HOROSCOPE"
         android:textColor="#FFF"
         android:textSize="24sp"
